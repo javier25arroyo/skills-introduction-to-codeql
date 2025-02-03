@@ -41,6 +41,35 @@ Here's a recap of all the tasks you accomplished in your repository:
 - [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
 - To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
+### :keyboard: Activity 3: Create a pull request
+
+In this activity, we'll create a pull request to merge the new branch with the insecure code into the `main` branch.
+
+1. Navigate to the **Pull requests** tab in your repository.
+2. Click the **New pull request** button.
+3. Select the new branch you created in the previous activity from the dropdown menu.
+4. Click the **Create pull request** button.
+5. Add a title and description for your pull request.
+6. Click the **Create pull request** button again to submit the pull request.
+
+### :keyboard: Activity 4: Review the pull request
+
+Now that we've created the pull request, let's review it to see the experience of identifying the introduced vulnerability.
+
+1. In the **Pull requests** tab, click on the pull request you just created.
+2. Scroll down to the **Checks** section and look for the "Code scanning/CodeQL" check.
+3. Once the check is complete, you will see a comment from CodeQL indicating a new security vulnerability.
+4. Review the data flow paths by clicking **Show paths**.
+5. Add a comment and tag one of your friends by using their GitHub handle (example: `@username`).
+
+### :keyboard: Activity 5: Merge the pull request
+
+In this final activity, we'll merge the pull request to complete the process.
+
+1. In the **Pull requests** tab, click on the pull request you just reviewed.
+2. Click the **Merge pull request** button.
+3. Confirm the merge by clicking the **Confirm merge** button.
+
 <footer>
 
 <!--
